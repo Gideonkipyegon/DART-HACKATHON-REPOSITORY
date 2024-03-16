@@ -1,2 +1,8 @@
-## Program 1: Display Personal Information
-Write a Dart program using variables to display your name, age, school, and a hobby. Print it in one logical sentence.
+void main() {
+  String name = "GIDEON KIPYEGON";
+  int age = 25;
+  String school = "KIRINYAGA University";
+  String hobby = "playing guitar";
+  
+  print("My name is $name, I am $age years old, and I attend $school. My hobby is $hobby.");
+}
